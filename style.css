@@ -10,7 +10,6 @@ body{
 }
 
 .cabecalho{
-    width: 100vw;
     display: flex;
     background-color: black;
     padding: 2em;
