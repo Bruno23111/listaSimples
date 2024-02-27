@@ -94,25 +94,22 @@ body{
 }
 
 @media screen and (min-width:1200px) {
-    .apresentacao{
-        justify-content: center;
-    }
+    
     .apresentacao-container{
-        margin: 0;
         text-align: center;
-        width: 30%;
+        width: 20em;
     }
 
     .container{
+        flex-direction: row;
         display: flex;
         gap: 10px;
         justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
     }
 
     .apresentacao__imagem{
-        
+        height: 20em;
     }
 
     
